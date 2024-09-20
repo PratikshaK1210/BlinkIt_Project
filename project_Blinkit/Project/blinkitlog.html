@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Blinkit login</title>
+</head>
+<style>
+    .main {
+        height: 320px;
+        border: 2px solid;
+        width: 40%;
+        border-radius: 20px;
+        border-color: gray;
+        margin-left: 30%;
+        margin-top: 13%;
+        align-items: center;
+    }
+    .image {
+        height: 70px;
+        /* border: 2px solid; */
+        align-items: center;
+        display: flex;
+    }
+    .arrow {
+        margin-left: 40px;
+    }
+    img {
+        height: 70px;
+        margin-left: 220px;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .main2 {
+        text-align: center;
+    }
+    .no {
+        margin:auto;
+        border: 2px solid;
+        height: 30px;
+        width: 250px;
+        padding: 7px;
+        border-radius: 10px;
+        border-color: rgb(185, 182, 182);
+    }
+    input {
+        border: none;
+    }
+    button {
+        height: 45px;
+        width: 270px;
+        border: 2px solid rgb(191, 189, 189);
+        border-radius: 10px;
+        background-color: rgb(167, 164, 164);
+        color: white;
+        border-color: rgb(202, 199, 199);
+        font-size: 15px;
+    }
+</style>
+
+<body>
+    <div class="main">
+
+        <div class="image">
+            <div class="arrow"><a href="./BlinkIt.html"><i class="fa-solid fa-arrow-left"></i></a></div>
+            <img src="./IMAGES/blinkitlogo2.png" alt="">
+        </div>
+        <div class="main2">
+            <h2 style="text-align: center;">India's last minute app</h2>
+            <p>Log in or Sign up</p>
+            <div class="no">
+                <b> +91</b> <input type="tel" placeholder="Enter mobile number" id="t" style="border:none;outline:none;" pattern="[0-9]{10}"><br><br>
+            </div>
+            <br>
+            <button id = "btn">Continue</button>
+            <p style="font-size: 13px; color:#696969">By continuing, you agree to our Terms of service & Privacy policy </p>
+        </div>
+    </div>
+    <script src="./BlinkItlog.js">
+    //     let cnt = 0;
+    //     let t = document.getElementById("t");
+    //     t.addEventListener("input",(event)=>{
+    //         event.preventDefault();
+    //         var num = event.target.value;
+    //         var sample = String(num);
+    //         countLength(sample);
+    //     })
+    //    function countLength(sample){
+    //     if(sample.length == 10){
+    //         let button = document.getElementById("btn");
+    //         button.style.backgroundColor = "green";
+    //         button.style.color= "white";
+    //     }
+    //    }
+        
+    </script>
+</body>
+
+</html>
